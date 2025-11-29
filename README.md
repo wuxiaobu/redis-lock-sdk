@@ -15,7 +15,7 @@
 ## 安装
 
 ```bash
-go get github.com/your-username/redis-lock-sdk
+go get github.com/wuxiaobu/redis-lock-sdk
 ```
 
 ## 快速开始
@@ -25,7 +25,7 @@ package main
 import (
     "context"
     "time"
-    "github.com/your-username/redis-lock-sdk/client"
+    "github.com/wuxiaobu/redis-lock-sdk/client"
 )
 
 func main() {
