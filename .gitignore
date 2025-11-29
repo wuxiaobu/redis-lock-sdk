@@ -1,0 +1,43 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Logs
+logs
+*.log
+
+# Build artifacts
+/dist/
+/build/
+/out/
+
+# Examples binaries
+examples/*.exe
+examples/*.test
+
+# Local configuration
+.env
+.env.local
+.local.env
+
+# Temporary files
+tmp/
+temp/
